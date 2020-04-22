@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+tr td {
+    width: 12.5%;
+    text-align: center;
+    color: rgb(255, 219, 219);
+    padding: 7px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: border;
+    background-color: rgb(8, 133, 56);
+    cursor: pointer;
+}
+
+tr td:hover {
+    background-color: rgb(10, 54, 12);
+}
+
+tr td i {
+    color: rgb(28, 240, 9);
+    font-size: 30px;
+    padding: 3px;
+}
+
+tr td a {
+    color: white;
+    text-decoration: none;
+}
+
+.home {
+    box-shadow: rgba(0, 0, 0, 0.75) 2px 14px 36px -18px;
+    padding: 2em 5em;
+    margin: 5em 12em;
+    min-height: 100vh;
+    font-family: "Adobe Caslon Pro";
+}
+
+.header h1 {
+    text-align: center;
+    padding: 3em 0.7em 0.7em;
+    font-size: 2em;
+}
+
+.img-p {
+    text-align: center;
+}
+
+.img-p p {
+    font-size: 14px;
+    padding: 1em 0 2em 0;
+}
+
+img {
+    box-shadow: rgba(0, 0, 0, 0.75) 2px 14px 36px -18px;
+    border: solid rgb(255, 253, 253) 7px;
+    border-radius: 7px;
+    outline: black 4PX;
+    width: 100%;
+    max-width: 1000px;
+    height: 300px;
+}
+
+.img-p img:hover {
+    opacity: 0.7;
+}
+
+.home ol li h1 {
+    font-size: 2em;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.home ol li p {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5em;
+    background-color: rgb(8, 133, 56);
+    color: white;
+}
+
+footer p {
+    font-size: 1.3em;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
+}
+
+.font {
+    text-align: center;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.font i {
+    padding: 0.5em 0.7em;
+}
+
+.font i:hover {
+    color: rgba(233, 224, 224, 0.7);
+}
